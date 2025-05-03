@@ -1,12 +1,43 @@
-# React + Vite
+# 🧭 Pokémon Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive React-based data explorer that displays the first 150 Pokémon using the [PokeAPI](https://pokeapi.co/). Users can search by name, filter by type, and view detailed Pokémon cards.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://pokemon-explorer-ad.netlify.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔍 Real-time search by Pokémon name
+- 🔄 Filter Pokémon by type (e.g., Fire, Water, Grass)
+- 🃏 Card layout with:
+  - Pokémon name
+  - Image (sprite)
+  - Type(s)
+  - ID number
+- 🌀 Shimmer loading effect while fetching data
+- 📱 Fully responsive design for mobile and desktop
+- ❌ Error and empty results handling
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Functional Components + Hooks)
+- CSS (No framework)
+- [PokeAPI](https://pokeapi.co/)
+- Deployed via Vercel / Netlify / GitHub Pages
+
+---
+
+## 📦 Installation
+
+Clone the repository and run it locally:
+
+```bash
+git clone https://github.com/anil-git-cloud/Pokemon
+cd pokemon-explorer
+npm install
+npm run dev   # Or npm start if using Create React App
