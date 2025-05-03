@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f7;
+}
+
+.header {
+  text-align: center;
+  padding: 1rem;
+  background: #ef5350;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.pokemon-card {
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.type-badge {
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  background: lightgray;
+  font-size: 0.8rem;
+}
